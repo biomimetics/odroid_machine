@@ -35,11 +35,8 @@ def synchronize_clock(time_server='time.nist.gov'):
   log_command('sntp -s ' + time_server)
   log_command('service ntp start')
 
-def check_mbed_binary(mbed_file, mbed_md5)
-
 if __name__ == '__main__':
   # Check wlan, eth configuration, proceed when one of them is up
   # Synchronize NTP daemon
-  # Check mbed
   # Set mbed status light
-  # ping loop?
+  # ping loop
